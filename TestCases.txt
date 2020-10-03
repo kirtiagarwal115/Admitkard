@@ -1,0 +1,29 @@
+Test Case 1-- Verify that system generates a validation message when entering existing fullname.
+Test Case 2-- Verify that tab functionality is working properly or not
+Test Case 3--Verify that Enter/Tab key works as a substitute for the Submit button(Register)
+Test Case 4--Verify that the username validation as per business requirement (in some application, username should not allow numeric and special characters)
+Test Case 5--Verify that the email text field than has an email address with @ symbol,has a random string instead of real email,the Email text field that has a missing dot in the email address.	1. Enter Invalid Emails
+2. Click on the Register Button.	
+eg:-1.testAtgmail.com
+2.test@gmailcom
+3.test@gmail
+4.@gmail	It should show the validation message for valid email
+Test Case 6--Verify that phone number validation,Check the phone number when passing alphanumeric data,It should show the validation message for Phone Number
+Test Case 7--Verify that phone number validation,Check the phone number when not pass country code,It should show the validation message for country code is required
+Test Case 8--Verify that password validation,Check the password limit when enter value less than min,then it should show validation message.
+Test case 9--Verify that the password is in encrypted form when entered.
+Test case 10--Verify the password when passing only numbers.
+Test case 11-- Check the password limit when enter value greater than max.
+Test Case 12--Verify that the validation message is displayed when clicking on Register button without selecting “terms and conditions” checkbox.
+Test Case 13--Verify that the “terms and conditions” checkbox is unselected by default (depends on business logic, it may be selected or unselected)
+Test case 14--Verify that OTP should be generated within the time period.
+Test case 15--Limitations of the number of OTP generation for single authentication.
+Test Case 16--It is received only on registered Mobile Number.
+Test Case 17--Verify that resend OTP functionality is working correctly.
+Test case 18--Verify that once user resent the OTP, the old one should be of no use.
+Test Case 19--Availability of Change phone number for OTP usage.
+Test Case 20--Check for types of characters OTP supports: Only Digits.
+Test case 21--How many times can a user provide invalid OTP?
+After multiple invalid tries, verify that system temporarily blocks the account.Verify that after the temporary blocking of account, the system does not send the one-time password.
+Test Case 22--Provide an invalid Phone Number and submit the OTP. Check the validation.
+Test Case 23--Verify that the "Get Started" button working properly after on click on get started button take to the home page.
